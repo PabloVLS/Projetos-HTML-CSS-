@@ -1,0 +1,57 @@
+body{
+    background-color: blue;
+}
+h1{
+    color: rgb(232, 236, 238);
+    font-size: 25px;
+    border-left: 18px solid red;
+    border-right: 18px solid(30, 255, 1)rgb(0, 195, 255);
+    border-top: 18px solid rgb(0, 255, 106);
+    border-bottom: 18px solid rgb(255, 208, 0);
+    border-radius: 30px;
+    background: black;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.exemplo-back{
+    background-color: gray;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-right: 42px;
+    /*background-image: url("../img/launch.jpg");*/
+}
+
+.botao{
+    margin-top: 55px;
+    bottom: auto;
+    margin-left: 33%;
+    background: green;
+    color: black;
+    padding: 20px;
+    border-radius: 9999px;
+}
+p{
+    text-align: justify;
+    direction: rtl;
+    text-indent: 20px;
+    letter-spacing: -1px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.botao:hover{
+    background: black;
+    color: wheat;
+}
+
+.divinopolis{
+    margin: 80px;
+    height: 80px;
+    width: 900px;
+    background-color: aquamarine;
+}

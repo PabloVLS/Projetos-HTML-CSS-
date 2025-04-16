@@ -1,0 +1,20 @@
+body{
+    background-color: blue;
+}
+h1{
+    color: red;
+    font-size: 88px;
+}
+
+.center{
+    text-align: center;
+}
+
+.fonto-30{
+    font-size: 30px;
+}
+
+#teste{
+    color: blueviolet;
+    background-color: turquoise;
+}

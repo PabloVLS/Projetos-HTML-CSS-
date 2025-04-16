@@ -1,0 +1,16 @@
+body{
+    background-color: blue;
+}
+h1{
+    color: rgb(0, 40, 63);
+    font-size: 88px;
+}
+
+.exemplo-back{
+    height: 300px;
+    background-color: gray;
+    background-image: url("../img/launch.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
