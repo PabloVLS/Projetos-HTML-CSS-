@@ -1,4 +1,5 @@
-<?php   
+<?php
+
 include '../includes/conexao.php';
 
 $nome = $_POST['campo-nome'];
@@ -9,7 +10,8 @@ $sexo = $_POST['campo-sexo'];
 $data = $_POST['campo-data'];
 $obs = $_POST['campo-obs'];
 
-$sql = "INSERT INTO  clientes(nome, email, cpf, salario, sexo, data, obs) values('$nome', '$email', '$cpf', '$salario', '$sexo', '$data', '$obs')";
+$sql = "insert into clientes (nome, email, cpf, salario, sexo, data, obs)
+        values('$nome', '$email', '$cpf', '$salario', '$sexo', '$data', '$obs')";
 
 $conexao->query($sql);
 

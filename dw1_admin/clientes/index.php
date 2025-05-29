@@ -63,8 +63,8 @@
     <?php include "../includes/rodape.php"; ?>
     <script>
         function excluir(id){
-            if(confirm("Tem certeza que quer excluir esse registro ?")){
-                window.location = "del.php?id="= id;
+            if(confirm("Tem certeza que quer excluir esse registro?")) {
+                window.location = "del.php?id=" + id;
             }
         }
     </script>

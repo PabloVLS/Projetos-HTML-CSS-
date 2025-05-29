@@ -1,4 +1,5 @@
-<?php   
+<?php
+
 include '../includes/conexao.php';
 
 $id = $_POST['campo-id'];
@@ -10,7 +11,9 @@ $sexo = $_POST['campo-sexo'];
 $data = $_POST['campo-data'];
 $obs = $_POST['campo-obs'];
 
-$sql = "update clientes set nome='$nome', email='$email', cpf='$cpf', salario='$salario', sexo='$sexo', data='$data', obs='$obs' where id = $id";
+$sql = "update clientes set nome='$nome', email='$email', cpf='$cpf', salario='$salario',
+        sexo='$sexo', data='$data', obs='$obs' where id = $id ";
+echo $sql;
 
 $conexao->query($sql);
 

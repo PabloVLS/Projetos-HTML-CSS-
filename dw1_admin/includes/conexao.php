@@ -1,5 +1,5 @@
 <?php
-$conexao = mysqli_connect("localhost", "root", "vertrigo", "dw1_banco");
+$conexao = mysqli_connect("localhost", "root", "", "dw1_banco");
  
 if (!$conexao) {
     echo "Error: Falha ao conectar-se com o banco de dados MySQL." . PHP_EOL;
