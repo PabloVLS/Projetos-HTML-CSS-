@@ -12,5 +12,11 @@
         <li class="nav-item">
             <a class="nav-link" href="../atividades/">Atividades</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../livros/">Livros</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../noticias/">Noticias</a>
+        </li>
     </ul>
 </div>
