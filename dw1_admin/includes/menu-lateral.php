@@ -7,10 +7,10 @@
             <a class="nav-link" href="../clientes/">Clientes</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="../produtos/">Produtos</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
+            <a class="nav-link" href="../atividades/">Atividades</a>
         </li>
     </ul>
 </div>
